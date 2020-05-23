@@ -6,7 +6,9 @@ namespace HTMLCleaner
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Parser p = new Parser(@"C:\My Web Sites\PianoNotes", "www.pianomint.com", @"Output");
+            p.Parse();
+
         }
     }
 }
